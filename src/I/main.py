@@ -27,6 +27,10 @@ def show_csv_info(file_path):
     print("\nDataFrame description:")
     print(data.describe())
 
+    print("\nQuantidade de Dados Faltantes:")
+    print((data == "").sum())
+    # print(data.isnull().sum())
+
     print("\nAdditional information:")
     print("""
     The Diabetes prediction dataset is a collection of medical and demographic data from patients, along with their diabetes status (positive or negative).
