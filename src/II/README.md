@@ -21,7 +21,7 @@
 ## Visualizações de Distribuição
 
 - [x] Histogramas: Criar histogramas para visualizar a distribuição de cada variável numérica.
-- [x] Boxplots: Utilizar boxplots para resumir a distribuição das variáveis e detectar outliers.
+- [x] [Boxplots](https://fernandafperes.com.br/blog/interpretacao-boxplot/): Utilizar boxplots para resumir a distribuição das variáveis e detectar outliers.
 
 ## Análise de Dados Categóricos
 
