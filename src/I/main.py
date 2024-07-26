@@ -38,5 +38,5 @@ def show_csv_info(file_path):
 
     return data
 
-file_path = 'data/diabetes_prediction_dataset.csv'
+file_path = '../../data/diabetes_prediction_dataset.csv'
 show_csv_info(file_path)
