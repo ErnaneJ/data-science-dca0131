@@ -2,29 +2,17 @@ import streamlit as st
 import numpy as np
 import pandas as pd
 import plotly.express as px
-import os
-from datetime import datetime
 from sklearn.ensemble import RandomForestClassifier
 from sklearn.cluster import KMeans
 from sklearn.preprocessing import LabelEncoder
 from sklearn.model_selection import train_test_split
 import xgboost as xgb
 
+# xgboost ERROR
+# correlation heatmap ERROR
+
 DATA_PATH = "../../data/diabetes_prediction_dataset.csv"
 CHARTS_DIR = "./charts/current/"
-
-def save_and_show_plot(title):
-    """
-    Save the plot to a file and display it.
-
-    @param title: The title of the plot to be used as the filename.
-    """
-    if not os.path.exists(CHARTS_DIR):
-        os.makedirs(CHARTS_DIR)
-    
-    timestamp = datetime.now().strftime('%Y%m%d_%H%M%S')
-    filename = os.path.join(CHARTS_DIR, f"{timestamp}_{title}.png")
-    fig.write_image(filename)
 
 def plot_age_distribution(df):
     """
