@@ -11,7 +11,7 @@ import xgboost as xgb
 # xgboost ERROR
 # correlation heatmap ERROR
 
-DATA_PATH = "./diabetes_prediction_dataset.csv"
+DATA_PATH = "https://raw.githubusercontent.com/ErnaneJ/data-science-dca0131/main/src/III/diabetes_prediction_dataset.csv"
 
 def plot_age_distribution(df):
     """
