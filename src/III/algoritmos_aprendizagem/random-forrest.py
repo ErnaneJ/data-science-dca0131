@@ -43,5 +43,5 @@ indices = importances.argsort()[::-1]
 plt.figure(figsize=(12,6))
 sns.barplot(x=importances[indices], y=X.columns[indices])
 plt.title('Importância das Features')
-plt.savefig("grafico.png")
+plt.savefig("grafico-ramdom-forrest.png")
 plt.show()
