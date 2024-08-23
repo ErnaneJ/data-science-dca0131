@@ -39,4 +39,4 @@ print("Relatório de Classificação:\n", classification_report(y_test, y_pred))
 plt.figure(figsize=(20,10))
 tree.plot_tree(dtree, filled=True, feature_names=X.columns, class_names=True, rounded=True)
 plt.savefig("grafico-arvore-decisao.png")
-#plt.show
+# plt.show()
