@@ -47,6 +47,21 @@ This project presents a comprehensive Exploratory Data Analysis (EDA) on a diabe
 - **Hypertension and Diabetes**: Specifically analyze patients who have both hypertension and diabetes.
 - **Smoking History Subgroups**: Compare metrics among patients with different smoking histories.
 
+## 🤖Machine Learning Algorithms
+
+### 📊 Metrics Results
+
+| KNN | Decision Tree | Random Forest |
+|-----|-------------------|---------------|
+| ![KNN Metrics](./algoritmos_aprendizagem/results/knn_metricas.png) | ![Decision Tree Metrics](./algoritmos_aprendizagem/results/arvore-decisao-metricas.png) | ![Random Forest Metrics](./algoritmos_aprendizagem/results/random-forrest-metricas.png) |
+
+### 📈 Plots
+
+| Decision Tree | Random Forest |
+|-----|-------------------|
+| ![Decision Tree](./algoritmos_aprendizagem/results/grafico-arvore-decisao.png) | ![Random Forest](./algoritmos_aprendizagem/results/grafico-random-forrest.png) |
+
+
 ## 🚀 How to Run
 
 To set up and run the dashboard, follow these steps:
